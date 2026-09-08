@@ -3,10 +3,10 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - Sandeep-feature
   pull_request:
     branches:
-      - main
+      - Sandeep-feature
 
 jobs:
   build-test-push:
